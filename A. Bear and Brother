@@ -1,0 +1,13 @@
+p_limak, p_bob = list(map(int, input().split()))
+
+years = 0
+
+
+while p_limak < p_bob +1:
+    years += 1 
+    p_limak *= 3 
+    p_bob *= 2
+
+    
+
+print(years)
