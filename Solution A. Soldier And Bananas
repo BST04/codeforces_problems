@@ -1,0 +1,17 @@
+f_banana, dollarsihave, bananas = list(map(int, input().split())) 
+
+a = 1
+final_price = 0
+s_total = 0 
+
+while a < bananas + 1:
+    s_total = f_banana * a
+    final_price += s_total
+    a += 1
+
+money = final_price - dollarsihave
+
+if money < 0:
+    print(0)
+else:
+    print(money)
