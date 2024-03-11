@@ -1,0 +1,7 @@
+suma = input().split(sep= '+')
+
+suma.sort()
+
+
+
+print("+".join(map(str, suma)))
