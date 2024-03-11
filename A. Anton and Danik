@@ -1,0 +1,15 @@
+number = int(input())
+
+results = input()
+
+c_a = results.count("A")
+c_d = results.count("D")
+
+if c_a > c_d:
+    print("Anton")
+
+elif c_a < c_d:
+    print("Danik")
+
+else:
+    print("Friendship")
