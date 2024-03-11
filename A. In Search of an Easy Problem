@@ -1,0 +1,11 @@
+opinions = int(input())
+
+results = input()
+
+hard = results.count("1")
+
+if hard > 0:
+    print("HARD")
+
+else:
+    print("EASY")
