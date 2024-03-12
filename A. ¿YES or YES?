@@ -1,0 +1,10 @@
+num = int(input())
+
+results = []
+for i in range(num):
+    if input().upper() == "YES":
+        results.append("YES")
+    else:
+        results.append("NO")
+
+print(*results)
