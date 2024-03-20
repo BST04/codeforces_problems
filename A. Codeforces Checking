@@ -1,0 +1,13 @@
+num = int(input())
+
+code = "codefrs" #['c', 'o', 'd', 'e', 'f', 'r', 's']
+results =[]
+
+for i in range(num): #por cada elemento en num
+    a = input()
+    if 1 == code.count(a): #si continene la letra se pondra en 1 
+        results.append("YES")
+    elif 0 == code.count(a): #si no contiene no sumara porque no lo detecta
+        results.append("NO") 
+
+print(*results, sep= '\n') #pondra los resultados sin '' y con enters
